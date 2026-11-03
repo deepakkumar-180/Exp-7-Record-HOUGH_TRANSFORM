@@ -173,8 +173,3 @@ threshold =
 Thus, the lane detection pipeline is successfully implemented by completing the missing code sections. The system detects and highlights lane lines effectively.
 
 ---
-
-##  Developed By
-
-* **Name:** ____________________________
-* **Register No:** ______________________
