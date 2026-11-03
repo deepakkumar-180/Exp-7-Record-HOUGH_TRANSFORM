@@ -43,7 +43,6 @@ import matplotlib.pyplot as plt
 
 ```
 
----
 
 ###  Step 2: Read the Image
 
@@ -53,7 +52,7 @@ img = cv2.imread('road1.png')
 if img is None:
     print("Image not found")
     exit()
----
+```
 
 ###  Step 3: Convert to Grayscale
 
