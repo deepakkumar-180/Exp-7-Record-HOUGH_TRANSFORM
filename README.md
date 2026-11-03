@@ -42,7 +42,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ```
-
+---
 
 ###  Step 2: Read the Image
 
@@ -53,7 +53,7 @@ if img is None:
     print("Image not found")
     exit()
 ```
-
+---
 ###  Step 3: Convert to Grayscale
 
 ```
@@ -144,13 +144,14 @@ plt.show()
 ###  Step 8: Gaussian Blur
 
 ```
-```
 blur = cv2.GaussianBlur(edges, (5,5), 0)
 
 plt.imshow(blur, cmap='gray')
 plt.title("Smoothed Image")
 plt.axis("off")
 plt.show()
+
+```
 ---
 
 ###  Step 9: Hough Transform
